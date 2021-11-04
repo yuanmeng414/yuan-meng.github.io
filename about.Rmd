@@ -1,0 +1,11 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This page have information about me
+
+I graduated from UC Irvine and I am now study biostatistics in Columbia Mailman of Public Health.

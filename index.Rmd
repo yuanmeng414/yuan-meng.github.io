@@ -1,0 +1,13 @@
+---
+title: "Yuan's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Yuan's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+[About me](about.html)
