@@ -1,11 +1,72 @@
 ---
-title: "About me"
+title: "Aacademic information"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This page have information about me
+This page have academic and professional information about me.
 
-I graduated from UC Irvine and I am now study biostatistics in Columbia Mailman of Public Health.
+## EDUCATION
+University of California, Irvine                                                                                                                                                 
+BS in Mathematics (Data science concentration); Minor: Statistics		       
+
+Columbia University  
+MS in Biostatistics (Data science track)                                                 
+
+## RESEARCH & INTERNSHIP EXPERIENCE
+
+##### Shanghai Bracco Sine Pharmaceutical Corp. Ltd.                                      
+Continuous Improvement Assistant                                           
+·	Implement 5S in both office workplace and plant under production 
+·	Participate in designing new fully automatized smart plant and optimize the cost by reviewing the expenses data in current plant 
+
+##### My Happy Blood, MHB Project                                                          
+Data Analyst, School of Nursing, Advisor: Dr. Jung-Ah Lee                          
+·	Conducts ANOVA testing and power analysis to study mobile health intervention for older adults on oral anticoagulation therapy by using SPSS
+·	Produces demographic table for analysis results, with the latter submitted in the presentation titled, Language- Specific M-Health APP to Improve Knowledge of ORAL Anticoagulation Therapy during the 54th Annual Communicating Nursing Research Conference as co-author
+
+##### Interactive E-book Project                                                               
+Data Analyst, School of Education, Advisor: Dr. Mark Warschauer                      
+·	Runs participations and gathers performance data about how E-books improve children’s English based on pre- and post-tests 
+·	Performs data analysis for E-book log data and CHAT files by Python 
+·	Codes children’s recorded reading video by using CLAN software
+·	Submitted a poster titled Design an Interactive E-book and Examine the Effectiveness of its Bilingual Feature to SRCD conference as co-author
+
+##### Dementia Caregiver Study                                                               
+Data Analyst, Health SciTech Group, Advisor: Dr. Jung-Ah Lee                             
+·	Completed the Alzheimer and Dementia online course under the Alzheimer’s Association and obtained a certification 
+·	Conducted data analysis on examining the changes in caregivers’ psychological measure based on their sleep data, activity data, and stress data by Python
+
+##### Statistical Consulting Independent Study                                                  
+Researcher, Department of Statistics, Advisor: Dr. Babak Shahbaba                        
+·	Designed statistical questions on the bases of cancer patients’ data from the UCI Medical School
+·	Explored power analysis and modeling statistical method to analyze the dietary intervention for inflammatory cytokines based on blood cancer patients’ symptom score by using R; then, presented the Statistical Consulting results to the medical researcher. 
+
+##### VAP Diagnostic Lab                                                                
+Clinical Data Assistant                                                             
+·	Processed the clinical data, including patient or client receipt, information entry, and verification
+·	Collaborated on analyzing patients’ testing result and testing specimens based on validation checks or errors and omissions identified during data entry, to resolve identified problems. 
+
+##### Shenwan Hongyuan（HK）limited Securities                                 
+Sales assistant in middle office                                            
+·	Write reports and make stock market prediction by managing and analyzing data in Bloomberg
+·	Consolidated listed firms financial statement and analyze firms situation for clients   
+
+## CO-CURRICULAR ACTIVITIES
+##### Ultimate Investment Society                                                             
+Staff, Public Relation Department                                                 
+·	Invites the alumni in the business field to talk about their experience
+·	Contacts companies to seek any possible collaborations for student internship opportunities 
+
+##### Associated Students UCI (ASUCI)                                                        
+Intern, campus outreach and policy in the Mental Health Commission                                                                                           
+·	Organized events such as international students’ coffee hour and mental health movie night, as a peer health educator to promote dialogue concerning mental health issues on campus
+·	Advocated mental health awareness to students through collaborations with campus resources to create a stronger community 
+
+## SKILLS
+·	Language: Fluent in Mandarin and English, French (elementary)
+·	Computer: Experience in Word, Excel, Office, PowerPoint, R and beginner in Bloomberg, Python, MATLAB, 
+Mathematica, SPSS
+

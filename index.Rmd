@@ -5,9 +5,17 @@ output:
     toc: true
     toc_float: true
 ---
+# My website
+This is my website,which can link to my Resume, E-mail, Linkedin,and Github.
 
-# This is Yuan's awesome website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![](https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif)
 
-[About me](about.html)
+# My Information 
+
+I am from Shanghai and live in New York. Here's my hometown, Shanghai:
+
+
+![](image/Shanghai.jpg)
+
+[Aacademic information](about.html)
