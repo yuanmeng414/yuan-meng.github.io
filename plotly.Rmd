@@ -1,0 +1,64 @@
+---
+title: "plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r message = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("rest_inspec")
+
+rest_inspec = 
+  rest_inspec %>% 
+  select(boro, building,cuisine_description,score,violation_code,grade) %>% 
+  drop_na() %>% 
+  filter(boro == "MANHATTAN",
+         !grade == "Not Yet Graded",
+         cuisine_description %in% c("Chinese","Japanese","Korean")) %>%
+  mutate(grade = factor(grade),
+         violation_code = factor(violation_code))
+
+rest_inspec
+```
+
+## scatterplot
+
+```{r}
+rest_inspec %>% 
+  mutate(
+    text_label = str_c("cuisine_description: ", cuisine_description, 
+                       "violation_code: ", violation_code)) %>% 
+  plot_ly(
+    x = ~grade, y = ~score, color = ~cuisine_description, 
+    text = ~text_label, alpha = 0.5,
+    type = "scatter", mode = "markers")
+```
+
+## boxplot
+
+```{r}
+rest_inspec %>%
+  mutate(violation_code = fct_reorder(violation_code, score)) %>% 
+  plot_ly(
+    x = ~violation_code, y = ~score, color = ~violation_code,
+    type = "box", colors = "viridis")
+```
+
+## bar plot
+```{r}
+rest_inspec %>% 
+  count(violation_code) %>% 
+  mutate(violation_code = fct_reorder(violation_code, n)) %>% 
+  plot_ly(
+    x = ~violation_code, y = ~n, color = ~violation_code, 
+    type = "bar", colors = "viridis")
+     
+```
+
