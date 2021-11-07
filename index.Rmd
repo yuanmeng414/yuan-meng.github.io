@@ -7,6 +7,7 @@ output:
 ---
 # My website
 This is my website,which can link to my Resume, E-mail, Linkedin,and Github.
+The website also include my plotly graph for NYC Restaurant Inspections Data. 
 
 
 ![](https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif)
