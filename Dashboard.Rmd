@@ -1,18 +1,18 @@
 ---
-title: "plotly"
+title: "Dashborad"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 ---
-# plotly graphs
 
-We are going to look at NYC Restaurant Inspections Data. 
-
-```{r message = FALSE}
+```{r setup, include=FALSE}
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+
+library(flexdashboard)
 ```
 
 ```{r}
@@ -27,11 +27,12 @@ rest_inspec =
          cuisine_description %in% c("Chinese","Japanese","Korean")) %>%
   mutate(grade = factor(grade),
          violation_code = factor(violation_code))
-
-rest_inspec
 ```
 
-## scatterplot
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
 
 ```{r}
 rest_inspec %>% 
@@ -44,7 +45,10 @@ rest_inspec %>%
     type = "scatter", mode = "markers")
 ```
 
-## boxplot
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 ```{r}
 rest_inspec %>%
@@ -54,7 +58,8 @@ rest_inspec %>%
     type = "box", colors = "viridis")
 ```
 
-## bar plot
+### Chart C
+
 ```{r}
 rest_inspec %>% 
   count(violation_code) %>% 
@@ -62,6 +67,5 @@ rest_inspec %>%
   plot_ly(
     x = ~violation_code, y = ~n, color = ~violation_code, 
     type = "bar", colors = "viridis")
-     
 ```
 
